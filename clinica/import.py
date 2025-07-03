@@ -7,7 +7,7 @@ from datetime import datetime
 def ejecutar_query(cursor, query, descripcion=""):
     try:
         cursor.execute(query)
-        print(f"{descripcion} ejecutado correctamenteeeee.")
+        print(f"{descripcion} ejecutado correctamenteeeeeeee.")
     except Error as e:
         print(f"Error al ejecutar {descripcion}: {e}")
 
